@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400&subset=cyrillic');
+
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 3400px;
+}
+
+a {
+    font-family: Heebo;
+    text-decoration: none;
+    margin-top: 80px
+}
+
+/* header */
+
+
+#header {
+    margin-left: 8.25em;
+    box-sizing: content-box;
+    width: 1595px;
+    height: 101px;
+}
+#Tube {
+    margin-top: 5em;
+    color: black;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#S {
+    color: #FF0000;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+#aver {
+    color: black;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+a > #download_video {
+    white-space: nowrap;
+    margin-top: 0.5em;
+    margin-left: 4.5em;
+    font-size: 20px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+a > #list {
+    white-space: nowrap;
+    margin-top: 0.5em;
+    margin-left: 6.25em;
+    font-size: 20px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#oauth {
+    margin-left: 7.1em;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 124px;
+    height: 49px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.55) 0%, rgba(255, 0, 0, 0.55) 100%), rgba(160, 160, 160, 0.35)
+}
+#reg {
+    margin-left: 3.875em;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 223px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+#line {
+    margin-left: 8.25em;
+    margin-top: 3.25em;
+    width: 78.6875em;
+    height: 1px;
+    background: #000
+}
+.menu-link {
+    color: black; /* задать начальный цвет */
+}
+
+/* block 1 */
+
+#block_1 {
+    margin-top: 162px;
+    width: 1607px;
+    height: 846px
+}
+
+#Tube_big {
+    margin-left: 132px;
+    margin-top: 338px;
+    color: black;
+    font-size: 96px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#S_big {
+    color: #FF0000;
+    font-size: 96px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+#aver_big {
+    color: black;
+    font-size: 96px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+#desc {
+    margin-top: 33px;
+    margin-left: 132px;
+    width: 390px;
+    height: 66px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#try {
+    margin-top: 109px;
+    margin-left: 132px;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 193px;
+    height: 49px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.55) 0%, rgba(255, 0, 0, 0.55) 100%), rgba(160, 160, 160, 0.35);
+}
+#learn {
+    margin-top: 109px;
+    margin-left: 40px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 223px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+#youtube {
+    z-index: -3;
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -115px;
+    width: 35vw;
+    height: 65vh
+}
+#triangle_2 {
+    position: absolute;
+    margin-left: 675.36px;
+    margin-top: -100px;
+    width: 20vw;
+    height: 45vh
+}
+#triangle_1 {
+    position: absolute;
+    margin-left: 815.36px;
+    margin-top: 130px;
+    width: 20vw;
+    height: 45vh
+}
+#triangle_3 {
+    position: absolute;
+    margin-left: 1095.36px;
+    margin-top: -140px;
+    width: 23vw;
+    height: 48vh
+}
+#like {
+    position: absolute;
+    margin-left: 920.17px;
+    margin-top: -195px;
+    width: 22vw;
+    height: 47vh
+}
+#advantages {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 650px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+#red_line {
+    margin-left: 132px;
+    margin-top: -62px;
+    width: 52vw;
+    height: 127vh
+}
+#advantage_1 {
+    position: absolute;
+    margin-left: -190px;
+    margin-top: -70px;
+    width: 22vw;
+    height: 35vh
+}
+#advantage_2 {
+    position: absolute;
+    margin-left: -758px;
+    margin-top: 170px;
+    width: 22vw;
+    height: 38vh
+}
+#advantage_3 {
+    position: absolute;
+    margin-left: -807px;
+    margin-top: 600px;
+    width: 22vw;
+    height: 38vh
+}
+#phone {
+    position: absolute;
+    margin-left: -700px;
+    margin-top: 55px;
+    width: 85vw;
+    height: 148vh
+}
+#video {
+    position: absolute;
+    margin-left: 112px;
+    margin-top: 2303px;
+    width: 85vw;
+    height: 30vh
+}
+#download_big {
+    color: #000;
+    font-family: Heebo;
+    margin-left: 575px;
+    margin-top: 273px;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: flex;
+    padding-top: 240px;
+    padding-left: 45px;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 43.2px;
+}
+#text {
+    position: absolute;
+    margin-top: 2758px;
+    margin-left: 290px;
+    width: 972px;
+    height: 55px;
+    color: #000;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#footer {
+    width: 150%;
+    margin-top: 800px
+}
+
+#Tube_footer {
+    margin-left: 510px;
+    margin-top: 338px;
+    color: white;
+    font-size: 96px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#S_footer {
+    color: #FF0000;
+    font-size: 96px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+#aver_footer {
+    color: white;
+    font-size: 96px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}

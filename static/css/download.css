@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400&subset=cyrillic');
+
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 680px;
+}
+
+a {
+    font-family: Heebo;
+    text-decoration: none;
+    margin-top: 80px
+}
+
+/* header */
+
+
+#header {
+    margin-left: 8.25em;
+    box-sizing: content-box;
+    width: 1595px;
+    height: 101px;
+}
+#Tube {
+    margin-top: 5em;
+    color: black;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#S {
+    color: #FF0000;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+#aver {
+    color: black;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+a > #download_video {
+    white-space: nowrap;
+    margin-top: 0.5em;
+    margin-left: 4.5em;
+    font-size: 20px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+a > #list {
+    white-space: nowrap;
+    margin-top: 0.5em;
+    margin-left: 6.25em;
+    font-size: 20px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#oauth_for_download_page {
+    margin-left: 7.1em;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 124px;
+    height: 49px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.55) 0%, rgba(255, 0, 0, 0.55) 100%), rgba(160, 160, 160, 0.35)
+}
+#reg_for_download_page {
+    margin-left: 3.875em;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 223px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+#line_for_download_page {
+    margin-left: 8.25em;
+    margin-top: 3.25em;
+    width: 78.6875em;
+    height: 1px;
+    background: #000
+}
+.menu-link {
+    color: black; /* задать начальный цвет */
+}
+
+#oauth {
+    margin-left: 254px;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 154px;
+    height: 49px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.55) 0%, rgba(255, 0, 0, 0.55) 100%), rgba(160, 160, 160, 0.35)
+}
+#reg {
+    margin-left: 62px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 223px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+#line {
+    margin-left: 8.25em;
+    margin-top: 52px;
+    width: 1595px;
+    height: 1px;
+    background: #000
+}
+#form {
+    margin-top: 40px;
+}
+#input {
+    margin-left: 132px;
+    margin-top: 60px;
+    width: 953px;
+    height: 60px;
+    border-radius: 15px;
+    background: #E0E0E0;
+    color: #000;
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px;
+    border: 0px;
+}
+.radio {
+    margin-left: 132px;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.radio > #anon{
+    width: 17px;
+    height: 17px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.radio:checked:before {
+    content: "\2713";
+    color: white;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.55) 0%, rgba(255, 0, 0, 0.55) 100%), rgba(160, 160, 160, 0.35);
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+#form > p {
+    margin-left: 132px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#form > span {
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#form > #send {
+    margin-left: 132px;
+    width: 120px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background: none
+}
+#alert {
+    display: block;
+    margin-left: 132px;
+    margin-top: 40px;
+    color: rgba(255, 0, 0, 0.55);
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

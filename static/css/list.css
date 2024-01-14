@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400&subset=cyrillic');
+
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 300px;
+}
+
+a {
+    font-family: Heebo;
+    text-decoration: none;
+    margin-top: 80px
+}
+
+/* header */
+
+
+#header {
+    margin-left: 8.25em;
+    box-sizing: content-box;
+    width: 1595px;
+    height: 101px;
+}
+#Tube {
+    margin-top: 5em;
+    color: black;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#S {
+    color: #FF0000;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+#aver {
+    color: black;
+    font-size: 30px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word
+}
+a > #download_video {
+    white-space: nowrap;
+    margin-top: 0.5em;
+    margin-left: 4.5em;
+    font-size: 20px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+a > #list {
+    white-space: nowrap;
+    margin-top: 0.5em;
+    margin-left: 6.25em;
+    font-size: 20px;
+    font-family: Heebo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#oauth {
+    margin-left: 7.1em;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 124px;
+    height: 49px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.55) 0%, rgba(255, 0, 0, 0.55) 100%), rgba(160, 160, 160, 0.35)
+}
+#reg {
+    margin-left: 3.875em;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 223px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+#line {
+    margin-left: 8.25em;
+    margin-top: 3.25em;
+    width: 78.6875em;
+    height: 1px;
+    background: #000
+}
+.menu-link {
+    color: black; /* задать начальный цвет */
+}
+#title {
+    display: block;
+    margin-left: 132px;
+    margin-top: 62px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#shape {
+    margin-left: 132px;
+    margin-top: 86px;
+    width: 1293px;
+    height: 145px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: none
+}
+.shape_description,  .shape_description span{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400&subset=cyrillic');
+
+
+body {
+    margin-top: 100px
+}
+
+#oauth_text {
+    margin-left: 689px;
+    margin-top: 195px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#login {
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 953px;
+    height: 60px;
+    border-radius: 15px;
+    background: #E0E0E0;
+    color: #000;
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px;
+    border: 0px;
+}
+#password {
+    margin-left: 300px;
+    margin-top: 40px;
+    width: 953px;
+    height: 60px;
+    border-radius: 15px;
+    background: #E0E0E0;
+    color: #000;
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px;
+    border: 0px;
+}
+#reg {
+    margin-top: 40px;
+    margin-left: 660px;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 223px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
