@@ -1,0 +1,28 @@
+{% load static %}
+
+<!Doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TubeSaver</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="{% static 'css/oauth.css' %}" rel="stylesheet">
+</head>
+<body style="font-family: Heebo">
+    <span id="oauth_text">Авторизация</span>
+    {% csrf_token %}
+    <form method="post" action="oauth" id="form">
+        <input type="text" placeholder="Login" id="login" name="login">
+        <input type="password" placeholder="Password" id="password" name="password"><br>
+
+        <span id="alert">{{ text }}</span>
+        <button class="btn justify-content-center text-center" id="oauth" type="submit" name="oauth">Войти</button>
+        <a href="/reg">
+            <button class="btn btn-outline justify-content-center text-center" id="reg">Зарегистрироваться</button>
+        </a>
+    </form>
+</body>
+</html>
